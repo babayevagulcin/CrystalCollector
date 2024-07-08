@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+.scores {
+  background-image: url("./img/bgcrystal.png");
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 70px;
+}
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: rgb(157, 103, 164);
+  padding-top: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win_lose,
+.score_match {
+  font-size: 24px;
+  color: rgb(117, 134, 139);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.score_match {
+  padding-top: 20px;
+  justify-content: center;
+  gap: 100px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number span {
+  font-size: 48px;
+}
+
+.crystals {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.crystal {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
